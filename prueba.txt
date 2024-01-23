@@ -1,1 +1,51 @@
-textodeprueba 
+ejercicio1:
+git config --global user.email "miguel"
+git config --global user.email "sagrarioflecha@gmail.com"
+git config --global color.ui auto
+
+ejercicio2:
+mkdir libro
+dir libro
+git init
+git log
+
+ejercicio3:
+1
+git status
+
+2
+echo Capítulo 1: Introducción a Git > indice.txt
+echo Capítulo 2: Flujo de trabajo básico >> indice.txt
+echo Capítulo 3: Repositorios remotos >> indice.txt
+
+3
+git status
+
+4
+git add indice.txt
+
+5
+git status
+
+ejercicio 4:
+git commit -m "Añadido índice del libro"
+
+ejercicio 5:
+1
+echo Capítulo 1: Introducción a Git > indice.txt
+echo Capítulo 2: Flujo de trabajo básico >> indice.txt
+echo Capítulo 3: Gestión de ramas >> indice.txt
+ehco Capítulo 4: Repositorios remotos >> indice.txt
+
+2
+git diff indice.txt
+
+3
+
+
+mkdir capitulos
+echo "Git es un sistema de control de versiones ideado por Linus Torvalds" > capitulo1.txt
+git add capitulo1.txt
+git commit -m "Añadido capítulo 1"
+
+
