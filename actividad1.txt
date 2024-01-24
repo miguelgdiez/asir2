@@ -1,3 +1,5 @@
+
+
 ejercicio1:
 git config --global user.email "miguel"
 git config --global user.email "sagrarioflecha@gmail.com"
@@ -41,11 +43,18 @@ ehco Capítulo 4: Repositorios remotos >> indice.txt
 git diff indice.txt
 
 3
+git add indice.txt
+git commit -m "Añadido capítulo 3 sobre gestión de ramas"
 
+ejercicio 6
+1
+git log
 
-mkdir capitulos
-echo "Git es un sistema de control de versiones ideado por Linus Torvalds" > capitulo1.txt
-git add capitulo1.txt
-git commit -m "Añadido capítulo 1"
+2
+git commit --amend -m "Añadido capítulo 3 sobre gestión de ramas al índice"
+
+3
+git log
+
 
 
