@@ -1,1 +1,44 @@
 https://github.com/miguelgdiez/asir2
+
+Ejercicio 1:
+1
+git log
+2
+mkdir capitulos
+echo Git es un sistema de control de versiones ideado por Linus Torvalds > capitulo1.txt
+3
+git add capitulo1.txt
+4
+git commit -m "Añadido capítulo 1"
+5
+git log
+
+ejercicio 2
+1
+echo El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona temporal. 3- Hacer un commit de los cambios > capitulo2.txt
+2
+git add capitulo2.txt
+3
+git commit -m "Añadido capítulo2."
+4
+git log
+
+Ejercicio 3
+1
+echo texto > capitulo3.txt
+2
+git add capitulo3.txt
+3
+git commit -m "Añadido capítulo 3"
+4
+git diff head-1..head
+
+ejercicio 4
+1 
+echo texto >> indice.txt
+2
+git add indice.txt
+3
+git commit -m "comentario"
+4
+git anotate indice.txt
