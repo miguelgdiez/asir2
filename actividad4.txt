@@ -2,4 +2,35 @@ https://github.com/miguelgdiez/asir2
 
 Ejercicio 1:
 2
-git remote add github 
+git remote add github https://github.com/miguelgdiez/libro-git.git
+3
+git remote -v
+
+Ejercicio 2:
+git push github master
+
+Ejercicio 3:
+2
+git clone 
+3
+echo Miguel Gonzalez sagrarioflecha@gmail.com > autores.txt
+4
+git add autores.txt
+5
+git commit -m "Añadido autor"
+6
+git push origin master
+
+Ejercicio 4
+2
+git clone https://github.com/miguelgdiez/libro-git.git
+3
+git checkout -b autoria
+4
+echo Miguel Gonzalez sagrarioflecha@gmail.com > autores.txt
+5
+git add autores.txt
+6
+git commit -m "Añadido nuevo autor"
+7
+git push origin autoria
