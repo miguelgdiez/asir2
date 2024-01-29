@@ -1,1 +1,68 @@
 https://github.com/miguelgdiez/asir2
+
+Ejercicio 1:
+git branch bibliografia
+git branch -av
+
+Ejercicio 2:
+1
+echo "texto" > capitulos/capitulo4.txt
+2
+git add capitulos/capitulo4.txt
+3
+git commit -m "Añadido capítulo 4
+4
+git log --graph --all --oneline
+
+Ejercicio 3:
+1
+git chekout bibliografia
+2
+echo Chacon, S. and Straub, B. Pro Git. Apress > bibliografia.txt
+3
+git add bibliografia.txt
+4
+git commit -m "Añadida primera referencia bibliográfica"
+5
+git log --graph --all --oneline
+
+Ejercicio 4:
+1
+git checkout master
+2
+git log --graph --all --oneline
+3
+git branch -D bibliografia
+4
+git log --graph --all --oneline
+
+Ejercicio 5
+1
+git branch bibliografia
+2
+git checkout bibliografia
+3
+echo Scott Chacon and Ben Straub. Pro Git. Apress > bibliografia.txt
+echo Ryan Hodson. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt
+4
+git add bibliografia.txt
+git commit -m "Añadida nueva referencia bibliográfica"
+5
+git checkout master
+6
+echo Chacon, S. and Straub, B. Pro Git. Apress. > bibliografia.txt
+echo Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. >> bibliografia.txt
+7
+git add bibliografia.txt
+git commit -m "Añadida primera referencia bibliográfica"
+8
+git merge bibliografia
+9
+echo Chacon, S. and Straub, B. Pro Git. Apress. > bibliografia.txt
+echo Loeliger, J. and McCullough, M. Version control with Git. O’Reilly. >> bibliografia.txt
+echo Hodson, R. Ry’s Git Tutorial. Smashwords (2014) >> bibliografia.txt
+10
+git add
+git commit -m "Resuelto conflicto de bibliografia"
+11
+git log --graph --all --oneline
