@@ -1,0 +1,5 @@
+https://github.com/miguelgdiez/asir2
+
+Ejercicio 1:
+2
+git remote add github 
